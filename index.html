@@ -15,10 +15,39 @@
 
     <h1>QuickNotes</h1>
 
+    <!-- Load notes -->
     <button id="load-btn">Load notes</button>
 
+    <!-- Status messages -->
     <p id="status"></p>
 
+    <!-- Create note form -->
+    <form id="note-form">
+
+        <label for="title-input">Title</label>
+
+        <input
+            type="text"
+            id="title-input"
+            name="title"
+            maxlength="100"
+        >
+
+        <label for="body-input">Body</label>
+
+        <textarea
+            id="body-input"
+            name="body"
+            rows="5"
+        ></textarea>
+
+        <button type="submit" id="submit-btn">
+            Create note
+        </button>
+
+    </form>
+
+    <!-- Notes appear here -->
     <ul id="notes-list"></ul>
 
 </body>
