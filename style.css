@@ -1,0 +1,42 @@
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+#status {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+#notes-list {
+    padding: 0;
+    list-style: none;
+}
+
+#notes-list li {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+
+#notes-list h2 {
+    margin-top: 0;
+}
